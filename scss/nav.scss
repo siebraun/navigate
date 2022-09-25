@@ -1,0 +1,24 @@
+nav {
+  max-width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 200px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: rift, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    padding: 20px;
+  }
+}
